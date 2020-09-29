@@ -1,0 +1,50 @@
+@charset "utf-8"
+    body{
+        
+        background-color: antiquewhite;
+        margin: 0px;
+        padding: 0px;
+}
+ul{
+    list-style: none;
+    
+}
+a{
+    text-decoration: none;
+
+}
+section{
+    width: 100%;
+    height: 95vh;
+    background-image: url(Frontphoto.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    background-color: aliceblue;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0,2);
+    padding: 0px 5%;
+}
+nav ul{
+    display: flex;
+}
+nav ul li a{
+    margin: 30px;
+    font-family: myraid pro regular;
+    color:aqua;
+    font-weight: 700;
+    font-size: 15px;
+}
+.logo{
+    font-family: RoadTest;
+    font-size: 22px;
+    color:#000000;
+}
+.start{
+    font-weight: bold;
+    color: #2d2a2a;
+}
